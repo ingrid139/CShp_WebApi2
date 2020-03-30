@@ -21,7 +21,7 @@ namespace LojaServices.Api.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer("Server=localhost,1433;Database=LojaServices;User Id =sa;Password=Ing@2020;Trusted_Connection=False;");
+                optionsBuilder.UseSqlServer("Server=localhost,1433;Database=LojaServicesTestes;User Id =sa;Password=Ing@2020;Trusted_Connection=False;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -17,7 +17,7 @@ namespace Loja.Test
         public PromocaoServiceTest()
         {
             var options = new DbContextOptionsBuilder<LojaContext>();
-            options.UseSqlServer("Server=localhost,1433;Database=LojaServices;User Id =sa;Password=Ing@2020;Trusted_Connection=False;");
+            options.UseSqlServer("Server=localhost,1433;Database=LojaServicesTestes;User Id =sa;Password=Ing@2020;Trusted_Connection=False;");
 
             _contexto = new LojaContext(options.Options);
             _produtoService = new ProdutoService(_contexto);
@@ -39,8 +39,8 @@ namespace Loja.Test
                 DataTermino = new DateTime(2020, 12, 05),
             };
 
-            //promocao.IncluiProduto(produto);
-            promocao.Produtos.Add(new PromocaoProduto() { Id = 0, ProdutoId = produto.Id, Produto = produto, PromocaoId = promocao.Id, Promocao = promocao });
+            promocao.IncluiProduto(produto);
+            
             //metodo de teste
             var promocaoAtual = _promocaoService.Salvar(promocao);
 

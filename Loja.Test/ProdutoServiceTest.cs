@@ -16,7 +16,7 @@ namespace Loja.Test
         public ProdutoServiceTest()
         {
             var options = new DbContextOptionsBuilder<LojaContext>();
-            options.UseSqlServer("Server=localhost,1433;Database=LojaServices;User Id =sa;Password=Ing@2020;Trusted_Connection=False;");
+            options.UseSqlServer("Server=localhost,1433;Database=LojaServicesTestes;User Id =sa;Password=Ing@2020;Trusted_Connection=False;");
 
             _contexto = new LojaContext(options.Options);
             _produtoService = new ProdutoService(_contexto);

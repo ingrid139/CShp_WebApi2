@@ -37,7 +37,7 @@ namespace LojaServices.Api.Models
 
         public void IncluiProduto(Produto produto)
         {
-            this.Produtos.Add(new PromocaoProduto() { Id = 0, PromocaoId = this.Id, Produto = produto });
+            this.Produtos.Add(new PromocaoProduto() { Id = 0, PromocaoId = this.Id, ProdutoId = produto.Id });
         }
 
     }

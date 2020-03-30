@@ -30,19 +30,16 @@ namespace LojaServices.Services
                             .FirstOrDefault();
         }
 
-        public Promocao Salvar(Promocao produto)
+        public Promocao Salvar(Promocao promocao)
         {
-            //verificar se é adicionar ou alterar
-            var estado = produto.Id == 0 ? EntityState.Added : EntityState.Modified;
-
-            //setar estado do entity
-            _context.Entry(produto).State = estado;
+            //vai analisar e add todas entidades identificadas como Added
+            _context.Add(promocao);
 
             //persistir os dados
             _context.SaveChanges();
 
             //retornar o objeto
-            return produto;
+            return promocao;
         }
     }
 }

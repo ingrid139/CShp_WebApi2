@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\Loja.Test\\Loja.Test.csproj": {}
+    "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\Loja.Test\\Loja.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\Loja.Test\\Loja.Test.csproj": {
+    "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\Loja.Test\\Loja.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\Loja.Test\\Loja.Test.csproj",
+        "projectUniqueName": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\Loja.Test\\Loja.Test.csproj",
         "projectName": "Loja.Test",
-        "projectPath": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\Loja.Test\\Loja.Test.csproj",
-        "packagesPath": "C:\\Users\\Ingrid Costa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\Loja.Test\\obj\\",
+        "projectPath": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\Loja.Test\\Loja.Test.csproj",
+        "packagesPath": "C:\\Users\\icosta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\Loja.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ingrid Costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\icosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\LojaServices\\LojaServices.csproj": {
-                "projectPath": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\LojaServices\\LojaServices.csproj"
+              "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\LojaServices\\LojaServices.csproj": {
+                "projectPath": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\LojaServices\\LojaServices.csproj"
               }
             }
           }
@@ -89,20 +89,20 @@
         }
       }
     },
-    "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\LojaServices\\LojaServices.csproj": {
+    "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\LojaServices\\LojaServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\LojaServices\\LojaServices.csproj",
+        "projectUniqueName": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\LojaServices\\LojaServices.csproj",
         "projectName": "LojaServices",
-        "projectPath": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\LojaServices\\LojaServices.csproj",
-        "packagesPath": "C:\\Users\\Ingrid Costa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ingrid Costa\\source\\repos\\Loja2\\LojaServices\\obj\\",
+        "projectPath": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\LojaServices\\LojaServices.csproj",
+        "packagesPath": "C:\\Users\\icosta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\icosta\\source\\repos\\CShp_WebApi2\\LojaServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ingrid Costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\icosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
